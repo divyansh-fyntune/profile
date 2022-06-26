@@ -6,7 +6,7 @@ import pic2 from "../assets/images/Hobnob.png";
 import { RadioButton1 } from "../Components/Navbar2";
 import ScrollToTopBtn from "../Components/ScrollToTopBtn";
 import Social from "../Components/Social";
-import down from "../assets/images/resume.pdf";
+import down from "../assets/images/divyansh_e_resume.pdf";
 function Portfolio() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
