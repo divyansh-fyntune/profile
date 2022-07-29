@@ -187,7 +187,10 @@ function About() {
                     </li>
                     <li>
                       <i class="bx bx-right-arrow-circle"></i>{" "}
-                      <strong>Website:</strong> <a href="">upcoming</a>
+                      <strong>Website:</strong>{" "}
+                      <a href="https://divyanshbarar.vercel.app">
+                        www.divyanshbarar.com
+                      </a>
                     </li>
                     <li>
                       <i class="bx bx-right-arrow-circle"></i>{" "}
@@ -284,10 +287,10 @@ function About() {
                     <i class="bx bx-right-arrow-circle"></i>{" "}
                     <strong>Birthday:</strong> 21 Jan 2002
                   </li>
-                  <li>
+                  {/* <li>
                     <i class="bx bx-right-arrow-circle"></i>{" "}
                     <strong>Website:</strong> <a href="">upcoming</a>
-                  </li>
+                  </li> */}
                   <li>
                     <i class="bx bx-right-arrow-circle"></i>{" "}
                     <strong>Phone:</strong> +91 9336899943

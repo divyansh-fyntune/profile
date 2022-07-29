@@ -6,7 +6,7 @@ import pic2 from "../assets/images/Hobnob.png";
 import { RadioButton1 } from "../Components/Navbar2";
 import ScrollToTopBtn from "../Components/ScrollToTopBtn";
 import Social from "../Components/Social";
-import down from "../assets/images/divyansh_e_resume.pdf";
+import down from "../assets/images/Divyansh_Barar Resume.pdf";
 function Portfolio() {
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });
@@ -97,6 +97,10 @@ function Portfolio() {
                       font-style: italic;
                       margin-right: 2px;
                       text-align: right !important;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }
@@ -186,6 +190,10 @@ function Portfolio() {
                       font-style: italic;
                       text-align: right !important;
                       margin-right: 2px;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }
@@ -307,6 +315,10 @@ function Portfolio() {
                       font-style: italic;
                       text-align: right !important;
                       margin-right: 2px;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }
@@ -411,6 +423,10 @@ function Portfolio() {
                       font-style: italic;
                       text-align: right !important;
                       margin-right: 2px;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }
@@ -491,6 +507,10 @@ function Portfolio() {
                       font-style: italic;
                       text-align: right !important;
                       margin-right: 2px;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }
@@ -571,6 +591,10 @@ function Portfolio() {
                       font-style: italic;
                       text-align: right !important;
                       margin-right: 2px;
+                      @media (max-width: 412px) {
+                        font-size: 12px !important;
+                        margin-right: 9px !important;
+                      }
                       &:hover {
                         color: #38b000;
                       }

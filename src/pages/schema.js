@@ -6,7 +6,7 @@ import tesla from "../assets/images/tesla.png";
 
 import covid from "../assets/images/covid.png";
 import todo from "../assets/images/todo.png";
-
+import game from "../assets/images/2048.png";
 import crowd from "../assets/images/crowdfund.png";
 
 import crypto from "../assets/images/cryptoworld.png";
@@ -17,6 +17,13 @@ export const demoschema = [
     tech: "Solidity",
     image: crowd,
     link: "https://crowdfunding-psi.vercel.app/",
+  },
+  {
+    name: "2048 Game daily",
+    description: "A react based game for single player.",
+    tech: "ReactJs",
+    image: game,
+    link: "https://2048-divyansh.vercel.app/",
   },
   {
     name: "Krypto-World",
