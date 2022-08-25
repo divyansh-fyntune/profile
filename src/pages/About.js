@@ -9,6 +9,7 @@ import proto1 from "../assets/images/d2.jpeg";
 import proto2 from "../assets/images/d3.jpeg";
 
 import lc from "../assets/images/lc.png";
+import cc from "../assets/images/codechef.jpg";
 import Social from "../Components/Social";
 function About() {
   return (
@@ -159,11 +160,20 @@ function About() {
                 projects.
                 <br />
                 <br />I can't stop learning new things; the more, the better.
-                <div>
+                <div className="d-flex">
                   <a href="https://leetcode.com/divyanshbarar/" target="_blank">
                     <Headshot>
                       <img src={lc} alt="lc"></img>
                       <span> My Leetcode Profile</span>
+                    </Headshot>
+                  </a>
+                  <a
+                    href="https://www.codechef.com/users/barar007"
+                    target="_blank"
+                  >
+                    <Headshot>
+                      <img src={cc} alt="lc"></img>
+                      <span> My Codechef Profile</span>
                     </Headshot>
                   </a>
                 </div>
@@ -268,6 +278,12 @@ function About() {
                 <Headshot>
                   <img src={lc} alt="lc"></img>
                   <span> My Leetcode Profile</span>
+                </Headshot>
+              </a>
+              <a href="https://www.codechef.com/users/barar007" target="_blank">
+                <Headshot>
+                  <img src={cc} alt="lc"></img>
+                  <span> My Codechef Profile</span>
                 </Headshot>
               </a>
             </div>
